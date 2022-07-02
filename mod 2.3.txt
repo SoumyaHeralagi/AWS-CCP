@@ -1,0 +1,31 @@
+*Amazon EC2 pricing
+
+With Amazon EC2, we pay only for the compute time that we use. 
+Amazon EC2 offers a variety of pricing options for different use cases. 
+For example, if our use case can withstand interruptions, we can save with Spot Instances. 
+we can also save by committing early and locking in a minimum level of use with Reserved Instances.
+
+*On-Demand Instances 
+
+these are ideal for short-term, irregular workloads that cannot be interrupted. No upfront costs or minimum contracts apply. 
+The instances run continuously until you stop them, 
+and you pay for only the compute time you use.Sample use cases for On-Demand Instances include 
+developing and testing applications and running applications that have unpredictable usage patterns. 
+On-Demand Instances are not recommended for workloads that last a year or longer because these workloads 
+can experience greater cost savings using Reserved Instances.
+
+*Reserved Instances 
+
+these are a billing discount applied to the use of On-Demand Instances in your account. 
+we can purchase Standard Reserved and Convertible Reserved Instances for a 1-year or 3-year term, and 
+Scheduled Reserved Instances for a 1-year term. You realize greater cost savings with the 3-year option.
+At the end of a Reserved Instance term, you can continue using the Amazon EC2 instance without interruption. 
+However, you are charged On-Demand rates until you do one of the following:
+Terminate the instance.
+Purchase a new Reserved Instance that matches the instance attributes (instance type, Region, tenancy, and platform).
+
+*Scalability
+
+Scalability involves beginning with only the resources we need and designing your architecture to 
+automatically respond to changing demand by scaling out or in. As a result, we pay for only the resources we use. 
+we don’t have to worry about a lack of computing capacity to meet our customers’ needs.
